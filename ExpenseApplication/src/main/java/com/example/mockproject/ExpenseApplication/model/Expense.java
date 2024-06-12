@@ -24,6 +24,7 @@ public class Expense {
     private String Location;
 @Column(name="rupees")
     private String rupees;
+@Enumerated(EnumType.STRING)
 @Column(name="category_name")
     private String category_name;
 
